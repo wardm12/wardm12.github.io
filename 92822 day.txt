@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+</head>
+<body>
+<OL>
+
+<li>ESS110 Env Systems II</li>
+<li>BI101 General Biology I </li>
+<li>CH142 Integrtd Chem Prin I</li>
+<li>CH143 Integrted Chem: Prin I Lab</li>
+<li>FYS102 FYS: FitLab</li>
+<li>MA160 Linear Algebra 3</li>
+<li>CH-144-01 Integrtd Chem: Prin II</li>
+<li>CH-145-01 Integrtd Chem: Prin II Lab</li>	
+<li>ESS-230-02 Environmetrics</li>
+<li>IT-105-01 Principles of Programming</li>
+<li>MU-111G-01 Guitar Studio</li>
+<li>PC-202-01 Intro Physics I</li>
+<li>PC-202L-01 Intro Physics Lab I</li>
+
+
+</OL>
+</body>
+</html>
