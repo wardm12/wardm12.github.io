@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+https://wardm12.github.io/92822day
+<html lang="en"> 
+<head>
+</head>
+<body>
+<OL>
+
+<li>ESS110 Env Systems II</li>
+<li>BI101 General Biology I </li>
+<li>CH142 Integrtd Chem Prin I</li>
+<li>CH143 Integrted Chem: Prin I Lab</li>
+<li>FYS102 FYS: FitLab</li>
+<li>MA160 Linear Algebra 3</li>
+<li>CH-144-01 Integrtd Chem: Prin II</li>
+<li>CH-145-01 Integrtd Chem: Prin II Lab</li>	
+<li>ESS-230-02 Environmetrics</li>
+<li>IT-105-01 Principles of Programming</li>
+  <ul>
+	<li> &lt;b&gt &lt;/b&gt </li>
+	<li> &lt;i&gt &lt;/i&gt </li>
+	<li> &lt;img src="something.jpeg" alt="this is an image"&gt &lt;</li>
+  </ul>
+<li>MU-111G-01 Guitar Studio</li>
+<li>PC-202-01 Intro Physics I</li>
+<li>PC-202L-01 Intro Physics Lab I</li>
+
+<table border=2>
+<tr>
+<td COLSPAN=3>colspan thing</td>
+ <TD><a href=https://wardm12.github.io/92822day</a> </TD>
+  <td>1</td>
+  <td>2</td>
+  <td>3</td>
+</tr>
+<tr>
+  <td>3</td>
+  <td>6</td>
+  <td>9</td>
+</tr>
+</table>
+
+
+</OL>
+</body>
+</html>
