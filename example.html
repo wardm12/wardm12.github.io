@@ -13,17 +13,65 @@ https://wardm12.github.io/assignment4
 </head>
 <body>
 
-<h2>Collapsibles</h2>
+<h2>Add Another</h2>
 
 <p>A Collapsible:</p>
-<button type="button" class="collapsible">Open Collapsible</button>
+<button type="button" class="collapsible">Add Another</button>
 <div class="content">
-  <p><select name="size" id="size">
+  <H2>Pizza Size</H2>
+
+<select name="size" id="size">
   <option value="small">Small $11.99</option>
   <option value="med">Medium $15.99</option>
   <option value="L">Large $18.99</option>
   <option value="el">Extra Large $20.99</option>
 </select>
+
+<H2>Crust Style</H2>
+
+<input type="radio" id="plain" name="pizzastyle" value="boring"><label for="plain">Plain</label>
+<input type="radio" id="garlic" name="pizzastyle" value="has good taste"><label for="garlic">Garlic +$0.99</label>
+<input type="radio" id="cheeses" name="pizzastyle" value="cheesy"><label for="cheeses">Cheese-Stuffed +$0.99</label>
+<input type="radio" id="nc" name="pizzastyle" value="nocrust"><label for="nc">No Crust (just sauce, cheese and toppings)</label>
+
+<H2>Toppings</H2><br>
+Each topping costs +$0.50, maggots cost +$1.00
+
+<input type="checkbox" id="echeese"> <label for="echeese">Extra Cheese</label>
+<input type="checkbox" id="pepperoni"> <label for="pepperoni">Pepperoni</label><br>
+<input type="checkbox" id="Garlic"> <label for="Garlic">Garlic     </label>
+<input type="checkbox" id="Green Pepper and Onion"> <label for="Green Pepper and Onion">Green Pepper and Onion</label><br>
+<input type="checkbox" id="sausage"> <label for="sausage">Sausage   </label>
+<input type="checkbox" id="maggot"> <label for="maggot">House Special: Extra Protein Maggots</label><br>
+
+<H2>Comments</H2>
+
+<label for="comments">Add Comments Here</label><br>
+
+<textarea id="comments" name="comments" rows="10" cols="75">
+Add comments here
+</textarea><br>
+
+
+<input type="submit">
+<input type="reset">
+
+<div id="innerdiv"></div>
+    <button id="mybutton">
+        click me
+    </button>
+    <script>
+      <H2>Pizza Size</H2>
+
+<select name="size" id="size">
+  <option value="small">Small $11.99</option>
+  <option value="med">Medium $15.99</option>
+  <option value="L">Large $18.99</option>
+  <option value="el">Extra Large $20.99</option>
+</select>
+  
+    </script>
+
 </p>
 </div>
 
