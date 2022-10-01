@@ -33,7 +33,7 @@ body {
 <title>Assignment 4 Pizza Page</title>
 <div style="border:5px double red;padding:2%;">
 <H1>The Happy Maggot's Pizza Palace</H1><br>
-<p class="blink"><p style="font-family:copperplate">Maggots: The Future of Protein</p></p></div>
+<p style="font-family:copperplate">Maggots: The Future of Protein</p></div>
 <img src="happymaggot.jpeg" alt="this is an image">
 
 
@@ -69,20 +69,21 @@ Add driving instructions and delivery prefrences here:
 <H2>Pizza Size</H2>
 
 <select name="size" id="size">
-  <option value="small">Small</option>
-  <option value="med">Medium</option>
-  <option value="L">Large</option>
-  <option value="el">Extra Large</option>
+  <option value="small">Small $11.99</option>
+  <option value="med">Medium $15.99</option>
+  <option value="L">Large $18.99</option>
+  <option value="el">Extra Large $20.99</option>
 </select>
 
 <H2>Crust Style</H2>
 
 <input type="radio" id="plain" name="pizzastyle" value="boring"><label for="plain">Plain</label>
-<input type="radio" id="garlic" name="pizzastyle" value="has good taste"><label for="garlic">Garlic</label>
-<input type="radio" id="cheeses" name="pizzastyle" value="cheesy"><label for="cheeses">Cheese-Stuffed</label>
+<input type="radio" id="garlic" name="pizzastyle" value="has good taste"><label for="garlic">Garlic +$0.99</label>
+<input type="radio" id="cheeses" name="pizzastyle" value="cheesy"><label for="cheeses">Cheese-Stuffed +$0.99</label>
 <input type="radio" id="nc" name="pizzastyle" value="nocrust"><label for="nc">No Crust (just sauce, cheese and toppings)</label>
 
-<H2>Toppings</H2>
+<H2>Toppings</H2><br>
+Each topping costs +$0.50, maggots cost +$1.00
 
 <input type="checkbox" id="echeese"> <label for="echeese">Extra Cheese</label>
 <input type="checkbox" id="pepperoni"> <label for="pepperoni">Pepperoni</label><br>
