@@ -14,6 +14,10 @@ https://wardm12.github.io/assignment4
 <body>
 
 <h2>Add Another</h2>
+<button name="button">
+            <img src=
+"https://media.geeksforgeeks.org/wp-content/uploads/20220124213826/clickme.png">
+        </button>
 
 <p>A Collapsible:</p>
 <button type="button" class="collapsible">Add Another</button>
