@@ -40,55 +40,6 @@ https://wardm12.github.io/assignment4
 <div class="content">
   <H2>Pizza Size</H2>
 
-<form name="1">
-<table border=2>
-<tr>
-  <td>First Name:</td>
-  <td><input></td>
-</tr><tr>
-  <td>Last Name:</td>
-  <td><input></td>
-</tr><tr>
-  <td>Phone Number:</td>
-  <td><input></td>
-</tr><tr>
-  <td>Street Address:</td>
-  <td><input></td>
-</tr>
-</table><br>
-
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
-
-</body>
-</html>
-
-
-##   <script>
-      <H2 style="color:midnightblue;">Pizza Size</H2>
-
-<select name="size" id="size">
-  <option value="small">Small $11.99</option>
-  <option value="med">Medium $15.99</option>
-  <option value="L">Large $18.99</option>
-  <option value="el">Extra Large $20.99</option>
-</select>
-  
-    </script>
 
 <style>
   .pizzabutton{
@@ -99,3 +50,29 @@ for (i = 0; i < coll.length; i++) {
         border: none;
       }
 </style>
+
+
+
+<html lang="en"> 
+   <head>
+      <title>Javascript</title>
+      <script>
+         function glue()
+         {
+           document.inclass.full.value = 
+                     document.inclass.first.value
+                   + " "
+                   + document.inclass.last.value;
+         }
+      </script>
+   </head>
+   <body>
+      <form name=inclass>
+        First: <input type=text name="first"><br>
+        Last:  <input type=text name="last" onchange="glue();"><br>
+        Full:  <input type=text name="full">
+      </form>
+   </body>
+</html>
+
+class="pizzabutton" value="submit"/>
