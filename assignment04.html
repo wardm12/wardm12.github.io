@@ -34,7 +34,7 @@ body {
 <script>
          function small()
          {
-           alert("Just a sad choice");
+           alert("Wise Choice");
          }
       </script>
 
@@ -118,7 +118,7 @@ Add driving instructions and delivery prefrences here:
 <H2 style="color:midnightblue;">Pizza Size</H2>
 
 <select name="size" id="size">
-  <option value="small" onclick="small();">Small $11.99</option>
+  <option value="small">Small $11.99</option>
   <option value="med">Medium $15.99</option>
   <option value="L">Large $18.99</option>
   <option value="el">Extra Large $20.99</option>
@@ -139,7 +139,7 @@ Each topping costs +$0.50, maggots cost +$1.00<br>
 <input type="checkbox" id="Garlic"> <label for="Garlic">Garlic     </label>
 <input type="checkbox" id="Green Pepper and Onion"> <label for="Green Pepper and Onion">Green Pepper and Onion</label><br>
 <input type="checkbox" id="sausage"> <label for="sausage">Sausage   </label>
-<input type="checkbox" id="maggot"> <label for="maggot">House Special: Extra Protein Maggots</label><br>
+<input type="checkbox" id="maggot" onclick="small();"> <label for="maggot">House Special: Extra Protein Maggots</label><br>
 
 <H2 style="color:midnightblue;">Comments</H2>
 
