@@ -1,23 +1,24 @@
+assignment 6
 <!DOCTYPE html>
 <html lang=”en”>
- <head>
- <title>Javascript</title>
- <script>
+<head>
+ <title>Assignment 6</title>
+<script>
  function glue()
  {
  document.querySelector(“#full”).value =
  document.querySelector(“#first”).value
  + “ “
- + document.querySelector(“#last”).value
+ + document.querySelector(“#last”).value;
  }
- </script>
- </head>
- <body>
- <form name=inclass>
+</script>
+</head>
+<body>
+<form name=inclass>
  First: <input type=text id="first"><br>
  Last: <input type=text id="last"
  onchange="glue();" ><br>
  Full: <input type=text id="full">
- </form>
+</form>
  </body>
 </html>
