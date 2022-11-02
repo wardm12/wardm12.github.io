@@ -4,22 +4,22 @@ assignment 6
 <head>
  <title>Assignment 6</title>
 <script>
-         function glue()
-         {
-           document.querySelector("#full").value = 
-               document.querySelector("#first").value
-             + " "
-             + document.querySelector("#last").value
-         }
-      </script>
-   </head>
-   <body>
-      <form name=inclass>
-        First: <input type=text id="first"><br>
-        Last:  <input type=text id="last" 
-                          onchange="glue();"><br>
-        Full:  <input type=text id="full"><br>
-        <input type=reset value="clear entries">
-      </form>
-   </body>
+  function glue()
+  {
+  document.querySelector("#full").value = 
+  document.querySelector("#first").value
+  + " "
+  + document.querySelector("#last").value
+  }
+ </script>
+ </head>
+ <body>
+ <form name=inclass>
+   First: <input type=text id="first"><br>
+   Last:  <input type=text id="last" 
+   onchange="glue();"><br>
+   Full:  <input type=text id="full"><br>
+   <input type=reset value="clear entries">
+</form>
+</body>
 </html>
