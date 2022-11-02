@@ -4,18 +4,18 @@
  <title>Assignment 6</title>
 <script>
 	var numClicks;
+numClicks = 0;
 	function countClicks ()
 	{
-	numClicks = numClicks + 1;
-	alert (numClicks);
+	numClicks = numClicks ++;
+	alert("you have clicked "+numClicks+" times");
 	}
 </script>
 <script>
     </head>
    <body>
       <form name=inclass>
-        <input types=button name=counter value-"Click COunter">
-		onclick="countClicks();" >
+        <input types=button name=counter value-"Click Counter" onclick="countClicks();" >
       </form>
    </body>
 </html>
