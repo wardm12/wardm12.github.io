@@ -11,9 +11,28 @@ assignment 6
 	+ " "
 	+ document.querySelector("#last").value
 	}
- </script>
+</script>
+<script>
+	functionfavanimal()
+	{
+		if (document.animal.duck.value =="mammal" ||
+		document.animal.duck.value =="Mammal") {
+		alert("duck");
+	} else {
+		alert("Maybe choose mammal, fish, bird, reptile, anphibian, insect, or arachnid");
+	}}
+</script>
  </head>
  <body>
+<form name=animal>
+<select name="" id="">
+  <option value=""></option>
+  <option value=""></option>
+  <option value=""></option>
+  <option value="el">Extra Large</option>
+</select>
+Enter your favorite type of animal: <input type=text name=duck onchange="favanimal();"> 
+</form>
  <form name=inclass>
  	First: <input type=text id="first"><br>
  	Last:  <input type=text id="last" 
