@@ -15,15 +15,24 @@ assignment 6
 <script>
 	function favanimal()
 	{
-		if (document.animal.duck.value =="snake bite" ||
-		document.animal.duck.value =="Snake Bite") {
+		if (document.inclass.first.value =="Winter" ||
+		document.animal.duck.value =="winter") {
 		alert("duck");
-	} else if (document.animal.duck.value =="broken bone" ||
-		document.animal.duck.value =="Duck") {
+	} else if (document.animal.duck.value =="spring" ||
+		document.animal.duck.value =="Spring") {
 		alert("duc");
 	} 
+ else if (document.animal.duck.value =="Summer" ||
+		document.animal.duck.value =="summer") {
+		alert("duc");
+	}  else if (document.animal.duck.value =="Fall" ||
+		document.animal.duck.value =="fall") ||
+		document.animal.duck.value =="Autumn") ||
+		document.animal.duck.value =="autumn") {
+		alert("duc");
+	}  
     else {
-		alert("Maybe choose snake bite, broken bone, bird, reptile, anphibian, insect, or arachnid");
+		alert("Maybe choose spring, summer, fall, or winter");
 	}}
 </script>
  </head>
@@ -38,8 +47,8 @@ assignment 6
 Enter a medical emergancy: <input type=text name=duck onchange="favanimal();"> 
 </form>
  <form name=inclass>
- 	First: <input type=text id="first"><br>
- 	Last:  <input type=text id="last" 
+ 	Season: <input type=text id="first"><br>
+ 	Drink:  <input type=text id="last" 
  	onchange="glue();"><br>
  	Full:  <input type=text id="full"><br>
  	<input type=reset value="clear entries">
