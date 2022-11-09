@@ -1,0 +1,44 @@
+https://wardm12.github.io/assignment7.html
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<title>Calculator Page</title>
+<script>
+	function addition()
+	{document.querySelector("#answer").value
+	=parseFloat(document.querySelector("#first").value)
+	+ parseFloat(document.querySelector("#two").value);}
+</script>
+<script>
+	function multiplication()
+	{document.querySelector("#answer").value
+	=parseFloat(document.querySelector("#first").value)
+	* parseFloat(document.querySelector("#two").value);}
+</script>
+<script>
+	function division()
+	{document.querySelector("#answer").value
+	=parseFloat(document.querySelector("#first").value)
+	/ parseFloat(document.querySelector("#two").value);}
+</script><script>
+	function subtraction()
+	{document.querySelector("#answer").value
+	=parseFloat(document.querySelector("#first").value)
+	- parseFloat(document.querySelector("#two").value);}
+</script>
+</head>
+<body>
+<form name=calc>
+	<input type=text id="first">
+	<input type=button value="+" onclick="addition();">
+    <input type=button value="-" onclick="subtraction();">
+    <input type=button value="*" onclick="multiplication();">
+    <input type=button value="/" onclick="division();">
+	<input type=text id="two"> &nbsp; &nbsp; &nbsp;=&nbsp; &nbsp; &nbsp;
+	<input type=text id="answer"><br>
+</form>
+</body>
+</html>
+
+
+ 
