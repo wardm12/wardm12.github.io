@@ -1,4 +1,4 @@
-https://wardm12.github.io/assignment7.html
+<!--https://wardm12.github.io/assignment7.html-->
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
@@ -8,14 +8,12 @@ https://wardm12.github.io/assignment7.html
 	{document.querySelector("#answer").value
 	=parseFloat(document.querySelector("#first").value)
 	+ parseFloat(document.querySelector("#two").value);}
-</script>
-<script>
+</script><script>
 	function multiplication()
 	{document.querySelector("#answer").value
 	=parseFloat(document.querySelector("#first").value)
 	* parseFloat(document.querySelector("#two").value);}
-</script>
-<script>
+</script><script>
 	function division()
 	{document.querySelector("#answer").value
 	=parseFloat(document.querySelector("#first").value)
@@ -25,20 +23,39 @@ https://wardm12.github.io/assignment7.html
 	{document.querySelector("#answer").value
 	=parseFloat(document.querySelector("#first").value)
 	- parseFloat(document.querySelector("#two").value);}
+</script><script>
+	function sizechange()
+    { document.querySelector("p").style.fontSize=document.querySelector("#size").value;}
+</script><script>
+	var bgToggle=true;
+    function makeaqua()
+    {if (bgToggle)
+    {document.querySelector('body').style.backgroundColor="aquamarine";
+    bgToggle=false;
+    } else {
+    document.querySelector('body').style.backgroundColor="goldenrod";
+    bgToggle=true;}
 </script>
 </head>
 <body>
+<p> heading</p>
+<select id="size" onchange="sizechange();">
+	<option value="large">Large Text</option>
+    <option value="initial">Medium Text</option>
+    <option value="small">small Text</option><br>
+
 <form name=calc>
-	<input type=text id="first">
+<input type=button value="aqua" onclick="makeaqua();">
+<h3><span style="color:darkgreen;">Calculator</span></h3><br>
+	<input type=text id="first">&nbsp;
 	<input type=button value="+" onclick="addition();">
     <input type=button value="-" onclick="subtraction();">
     <input type=button value="*" onclick="multiplication();">
-    <input type=button value="/" onclick="division();">
-	<input type=text id="two"> &nbsp; &nbsp; &nbsp;=&nbsp; &nbsp; &nbsp;
+    <input type=button value="/" onclick="division();">&nbsp;
+	<input type=text id="two"> &nbsp;&nbsp;=&nbsp;&nbsp;
 	<input type=text id="answer"><br>
+  <h3><span style="color:darkgreen;">Summation</span></h3>
 </form>
 </body>
 </html>
 
-
- 
