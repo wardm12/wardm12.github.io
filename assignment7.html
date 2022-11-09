@@ -35,7 +35,34 @@
     } else {
     document.querySelector('body').style.backgroundColor="goldenrod";
     bgToggle=true;}
+</script><script>
+	function summation()
+    {var sum=0;
+    var B = parseInt( document.querySelector("#B").value );
+    A = parseInt( document.querySelector("#A").value );
+	for (i=A; i<=B; i++) {
+    sum += i;}
+    document.querySelector("#sumanswer").innerHTML = "Your sum is: "+sum;}
 </script>
+<style>
+.button {
+  background-color: navy;
+  border: 2px solid silver;
+  color: silver;
+  padding: 7.5px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: palegreen;
+  color: gold;
+}
+
+</style>
 </head>
 <body>
 <p> heading</p>
@@ -46,7 +73,7 @@
 
 <form name=calc>
 <input type=button value="aqua" onclick="makeaqua();">
-<h3><span style="color:darkgreen;">Calculator</span></h3><br>
+<h3><span style="color:darkgreen;">Calculator</span></h3>
 	<input type=text id="first">&nbsp;
 	<input type=button value="+" onclick="addition();">
     <input type=button value="-" onclick="subtraction();">
@@ -55,6 +82,15 @@
 	<input type=text id="two"> &nbsp;&nbsp;=&nbsp;&nbsp;
 	<input type=text id="answer"><br>
   <h3><span style="color:darkgreen;">Summation</span></h3>
+  
+Start integer to summation: <input type=text id="A"><br>
+End integer to summation:&nbsp; <input type=text id="B"><br>
+	<input type=button value="Start the Sum" onclick="summation();">
+    <div id="sumanswer">
+Your sum is: 
+    </div>
+  
+ <input type=reset class="button" value="Clear Entries"> <br>
 </form>
 </body>
 </html>
