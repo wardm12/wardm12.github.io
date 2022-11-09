@@ -1,56 +1,52 @@
-assignment 6
+https://wardm12.github.io/assignment6.html
 <!DOCTYPE html>
 <html lang=”en”>
 <head>
 <title>Assignment 6</title>
 <script>
-	function glue()
-	{
-	document.querySelector("#full").value = 
-	document.querySelector("#first").value
-	+ " "
-	+ document.querySelector("#last").value
-	}
+	
+         function glue()
+         { document.querySelector("#full").value = 
+         document.querySelector("#first").value
+         + " "
+         + document.querySelector("#last").value
+         } function hey()
+         { document.querySelector("#changeText").innerHTML = "Hi "+ document.querySelector("#first").value;
+         }
+   function changewords()
+         {
+           document.querySelector("#changeText").innerHTML = "Your favorite season is "+ document.querySelector("#first").value;
+         }
 </script>
+
+
+
 <script>
-	function favanimal()
+	function choice()
 	{
-		if (document.inclass.first.value =="Winter" ||
-		document.inclass.first.value =="winter") {
-		alert("Hot Chocolate");
-	} else if (document.inclass.first.value =="spring" ||
-		document.inclass.duck.value =="Spring") {
-		alert("Ice Tea");
-	} 
- else if (document.inclass.first.value =="Summer" ||
-		document.inclass.first.value =="summer") {
-		alert("Lemonade");
-	}  else if (document.inclass.first.value =="Fall" ||
-		document.inclass.first.value =="fall") ||
-		document.inclass.first.value =="Autumn") ||
-		document.inclass.first.value =="autumn") {
-		alert("Mulled Cider");
-	}  
-    else {
-		alert("Maybe choose spring, summer, fall, or winter");
-	}}
-</script>
+	alert("best choice");
+	}
+ </script>
  </head>
  <body>
 <form name=inclass>
+<H1>Season</H1>
 
-<input type="checkbox" id="a" name="multiple" value="boring"><label for="a">ice skating</label><br>
-<input type="checkbox" id="b" name="multiple" value="boring"><label for="b">corn maze</label><br>
-<input type="checkbox" id="c" name="multiple" value="boring"><label for="c">volley ball</label><br>
-<input type="checkbox" id="d" name="multiple" value="boring"><label for="d">lacrosse</label><br>
-
-
-
- 	Season: <input type=text id="first" onchange="glue();"><br>
+ 	Season: <input type=text id="first"  onchange="changewords();"><br>
  	Drink:  <input type=text id="last" onchange="glue();"
  	onchange="glue();"><br>
- 	Full:  <input type=text id="full" onchange="glue();"><br>
- 	<input type=reset value="clear entries">
+ 	Full:  <input type=text id="full" onchange="glue();"><br><br>
+ 
+    
+    <input type="checkbox" id="a" name="multiple" value="w" onchange="choice()"><label for="a">ice skating</label><br>
+<input type="checkbox" id="b" name="multiple" value="w"><label for="b">corn maze</label><br>
+<input type="checkbox" id="c" name="multiple" value="w"><label for="c">volley ball</label><br>
+<input type="checkbox" id="d" name="multiple" value="w"><label for="d">lacrosse</label><br><br>
+	<input type=reset value="clear entries"> <br>
+    
 </form>
+ <div id=changeText>
+      Hello
+      </div>
 </body>
 </html>
