@@ -65,19 +65,14 @@
 </style>
 </head>
 <body>
-
-<button type="button" onclick="maggot()">Set background image to maggots</button>
-<script>
-function maggot() {
-  document.body.style.backgroundColor = "#f3f3f3";
-  document.body.style.backgroundImage = "url('maggot.jpeg')";}
-</script>
+<center>
 
 <button type="button" onclick="frog()">Set background image to frog</button>
 <script>
 function frog() {
   document.body.style.backgroundColor = "#f3f3f3";
-  document.body.style.backgroundImage = "url('frog.jpeg')";}
+  document.body.style.backgroundImage = "url('frog.jpeg')";
+  alert("Good Choice"); }
  </script>
 
 <button type="button" onclick="bear()">Set background image to bear</button>
@@ -86,6 +81,14 @@ function bear() {
   document.body.style.backgroundColor = "#f3f3f3";
   document.body.style.backgroundImage = "url('bear.jpg')";}
  </script>
+ 
+<button type="button" onclick="maggot()">Set background image to maggots</button>
+<script>
+function maggot() {
+  document.body.style.backgroundColor = "#f3f3f3";
+  document.body.style.backgroundImage = "url('maggot.jpeg')";
+  alert("Delicious!"); }
+</script>
 
 </script><button type="button" onclick="wasp()">Set background image to wasp</button>
 <script>
@@ -124,6 +127,7 @@ function green() {
 	<option value="large">Large Text</option>
     <option value="initial">Medium Text</option>
     <option value="small">small Text</option><br>
+<br>
 
 <form name=calc>
 <h3><span style="color:darkgreen;">Calculator</span></h3>
@@ -138,12 +142,13 @@ function green() {
   
 Start integer to summation: <input type=text id="A"><br>
 End integer to summation:&nbsp; <input type=text id="B"><br>
-	<input type=button value="Start the Sum" onclick="summation();">
+	<input type=button value="Find Sum" class="button" onclick="summation();">
     <div id="sumanswer">
 Your sum is: 
     </div>
-  
+ 
  <input type=reset class="button" value="Clear Entries"> <br>
+ </center>
 </form>
 </body>
 </html>
