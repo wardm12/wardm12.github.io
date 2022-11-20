@@ -1,7 +1,6 @@
 
 <!DOCTYPE html>
-https://wardm12.github.io/assignment04
-<!-- Meghan Ward, 9/28/22, Assignment 4, pizza page -->
+<!-- https://wardm12.github.io/signatureassignment -->
 <html lang="en"> 
 <head>
 
@@ -76,6 +75,14 @@ body {
 
 </head>
 <body>
+<button type="button" onclick="frog()">Set background image to frog</button>
+<script>
+function frog() {
+  document.body.style.backgroundColor = "#f3f3f3";
+  document.body.style.backgroundImage = "url('frog.jpeg')";
+  alert("Good Choice"); }
+ </script>
+
 <title>Icecream Shop</title>
 	<H1 style="color:darkred;" style="font-family:courier;">Icecream</H1><br>
 	<p style="font-family:copperplate">Maggots: The Future of Protein</p></div>
@@ -86,128 +93,7 @@ body {
 <table border=2>
 	<tr>
  	 <td>First Name:</td>
- 	 <td><input type=text id="first"  onchange="changewords();"></td>
-	</tr><tr>
- 	 <td>Last Name:</td>
- 	 <td><input type=text id="last" onchange="glue();"
- 		onchange="glue();"></td>
-	</tr><tr>
-	  <td>Full Name:</td>
- 	 <td><input type=text id="full" onchange="glue();"></td>
-	</tr><tr>
- 	 <td>Phone Number:</td>
- 	 <td><input></td>
-	</tr><tr>
-	  <td>Street Address:</td>
-	  <td><input></td>
-	</tr>
-	</table><br>
-
-<H2 style="color:midnightblue;">Delivery</H2>
-
-	<input type="radio" id="pickup" name="deliver" value="pick up"><label for="pickup">Pick Up</label>
-	<input type="radio" id="dinein" name="deliver" value="dinein"><label for="dinein">Dine-In</label>
-	<input type="radio" id="deliver" name="deliver" value="dinein"><label for="deliver">Deliver</label><br>
-
-<textarea id="comment" name="comment" rows="6" cols="75">
-Add driving instructions and delivery prefrences here:
-</textarea><br>
-
-
-<H2 style="color:midnightblue;">Burgers</H2><br>
-Each topping costs +$0.50, maggots cost +$1.00<br>
-</center>
-
-	<input type="checkbox" id="Rubin"> <label for="Rubin">Rubin $3.99</label> <br>How Many? <input type="text" id="Rubins"><br>
-	<input type="checkbox" id="ch"> <label for="ch">Cheseapeak Burger $7.99</label>
-<!DOCTYPE html>
-https://wardm12.github.io/assignment04
-<!-- Meghan Ward, 9/28/22, Assignment 4, pizza page -->
-<html lang="en"> 
-<head>
-
-<style>
-	.content {
- 	 max-width: 500px;
- 	 margin: auto;}
-</style><script>
-	
-         function glue()
-         { document.querySelector("#full").value = 
-         document.querySelector("#first").value
-         + " "
-         + document.querySelector("#last").value
-</script>
-<body>
-
-<div class="content">
-  <!-- Page content -->
-</div>
-
-</body>
-
-<center>
-
-<style>
-body {
-  	background-image: url('maggot.jpeg');
-  	background-repeat: no-repeat;
- 	 background-attachment: fixed;
- 	 background-size: cover;}
-</style>
-
-
-<style>
-	img {
-  border-radius: 50%;}
-</style>
-
-<style>
-	h1 {
-	  text-shaddow: 2px 2px 3px #dd9999;}
-
-</style><style>
-	th, td {
- 	 border: 1px solid white;
- 	 border-collapse: collapse;}
-	th, td {
- 	 background-color: #ddffdd;}
-</style><style>
-	table, th, td {
-	  border: 1px solid white;
-	  border-collapse: collapse;}
-	tr:nth-child(even) {
-	  background-color: #ddffdd;}
-	tr:nth-child(even) {
-	  background-color: lightyellow;}
-	th, td {
-	  border: 1px solid white;
-	  border-radius: 10px;}
-	th, td {
-	  border-style: outset;}
-	tr:hover {background-color: darkred;}
-</style><script>
-	function addition()
-	{document.querySelector("#answer").value
-	=parseFloat(document.querySelector("#1").value)
-	+ parseFloat(document.querySelector("#2").value)
-	+ parseFloat(document.querySelector("#3").value)
-	+ parseFloat(document.querySelector("#4").value);}
-</script>
-
-</head>
-<body>
-<title>Icecream Shop</title>
-	<H1 style="color:darkred;" style="font-family:courier;">Icecream</H1><br>
-	<p style="font-family:copperplate">Maggots: The Future of Protein</p></div>
-
-<H2 style="color:midnightblue;">Customer Information</H2>
-
-<form name="1">
-<table border=2>
-	<tr>
- 	 <td>First Name:</td>
- 	 <td><input type=text id="first"  onchange="changewords();"></td>
+ 	 <td><input type=text id="first"  onchange="glue();"></td>
 	</tr><tr>
  	 <td>Last Name:</td>
  	 <td><input type=text id="last" onchange="glue();"
