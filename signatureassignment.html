@@ -103,8 +103,13 @@ function frog() {
  </script>
 
 <title>Icecream Shop</title>
-	<H1 style="color:darkred;" style="font-family:courier;">Icecream</H1><br>
+	<H1 style="color:darkred;" style="font-family:courier;">Happy Maggots Burger Brunch</H1><br>
 	<p style="font-family:copperplate">Maggots: The Future of Protein</p></div>
+	<p id="demo">Good Evening! Welcome to Happy Maggots Burger Brunch! Where maggoty protein runs free.</p>
+<script>
+	if (new Date().getHours() < 17) {
+	  document.getElementById("demo").innerHTML = "Good day! Welcome to Happy Maggots Burger Brunch! Where maggoty protein runs free.";}
+</script>
 
 <H2 style="color:midnightblue;">Customer Information</H2>
 
@@ -139,14 +144,6 @@ function frog() {
 Add driving instructions and delivery prefrences here:
 </textarea><br>
 
-
-<H2 style="color:midnightblue;">Happy Maggots Burger Brunch</H2><br>
-
-	<p id="demo">Good Evening! Welcome to Happy Maggots Burger Brunch! Where maggoty protein runs free.</p>
-<script>
-	if (new Date().getHours() < 17) {
-	  document.getElementById("demo").innerHTML = "Good day! Welcome to Happy Maggots Burger Brunch! Where maggoty protein runs free.";}
-</script>
 </center>
 <dl>
 	<dt><input type="checkbox" id="Rubin"> <label for="Rubin"><b>Rubin</b> $3.99</label></dt><dd>How Many? <input type="text" id="Rubins"><br></dd>
