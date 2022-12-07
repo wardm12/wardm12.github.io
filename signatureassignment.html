@@ -87,6 +87,26 @@ function frog() {
 <script>
 	if (new Date().getHours() < 17) {
 	  document.getElementById("demo").innerHTML = "Good day! Welcome to Happy Maggots Burger Brunch! Where maggoty protein runs free.";}
+</script><script>
+	function addition()
+	{document.querySelector("#answer").value
+	=parseFloat(document.querySelector("#first").value)
+	+ parseFloat(document.querySelector("#two").value);}
+</script><script>
+	function multiplication()
+	{document.querySelector("#answer").value
+	=parseFloat(document.querySelector("#first").value)
+	* parseFloat(document.querySelector("#two").value);}
+</script><script>
+	function division()
+	{document.querySelector("#answer").value
+	=parseFloat(document.querySelector("#first").value)
+	/ parseFloat(document.querySelector("#two").value);}
+</script><script>
+	function subtraction()
+	{document.querySelector("#answer").value
+	=parseFloat(document.querySelector("#first").value)
+	- parseFloat(document.querySelector("#two").value);}
 </script>
 
 <H2 style="color:midnightblue;">Customer Information</H2>
@@ -153,7 +173,14 @@ Add comments here
 
  <p><a class="employ" href="https://wardm12.github.io/final3" >Click Here to fill out a form for a FREE BURGER!</a></p><br>
 <p><a class="employ" href="https://gingre.github.io/a0f" >Click Here for Chance to Win Minimum Wage!</a></p><br>
-
+<h3> Use this to calculate your price:</h3>
+<input type=text id="first">&nbsp;
+	<input type=button value="+" onclick="addition();">
+    <input type=button value="-" onclick="subtraction();">
+    <input type=button value="*" onclick="multiplication();">
+    <input type=button value="/" onclick="division();">&nbsp;
+	<input type=text id="two"> &nbsp;&nbsp;=&nbsp;&nbsp;
+	<input type=text id="answer"><br>
 
 <br>
 <img src="spider.jpg" alt="this is an image">
