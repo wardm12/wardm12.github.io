@@ -19,14 +19,16 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;}
-</style>
-
-
-
+</style><script>
+function four()
+	{if (document.querySelector("#lue").value =="42")  
+	{alert("Correct! The answer to life, the universe and everything!");
+        } else {
+             alert("Maybe choose a 42?");}}
+</script>
 <style>
 img {
-  border-radius: 50%;
-}
+  border-radius: 50%;}
 </style>
 
 
@@ -56,6 +58,7 @@ Where you live now:<input type="text" id="tn"><br><br>
 What you wanted to be when you grew up:<input type="text" id="fj"><br><br>
 What job you have now:<input type="text" id="sj"><br><br>
 If you were a color, what would you be?:<input type="text" id="fc"><br><br>
+What is 6X9?:<input type="text" id="lue" onchange="four();"><br><br>
 </h3>
 
 <button type="button" onclick="fly()">Submit</button>
@@ -71,14 +74,7 @@ function fly() {
  <p><a class="employ" href="https://wardm12.github.io/signatureassignment" >Click Here to Order a Happy Maggot Burger Brunch!</a></p><br>
 <p><a class="employ" href="https://gingre.github.io/a0f" >Click Here for Chance to Win Minimum Wage!</a></p><br>
 <br>
-<h3> Use this to calculate your price:</h3>
-<input type=text id="first">&nbsp;
-	<input type=button value="+" onclick="addition();">
-    <input type=button value="-" onclick="subtraction();">
-    <input type=button value="*" onclick="multiplication();">
-    <input type=button value="/" onclick="division();">&nbsp;
-	<input type=text id="two"> &nbsp;&nbsp;=&nbsp;&nbsp;
-	<input type=text id="answer"><br>
+
 <img src="spider.jpg" alt="this is an image">
 </body>
 </center>
